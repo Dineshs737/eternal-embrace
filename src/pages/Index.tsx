@@ -11,7 +11,7 @@ import MemorySection from '@/components/MemorySection';
 import PoemSection from '@/components/PoemSection';
 import QuoteSection from '@/components/QuoteSection';
 import Footer from '@/components/Footer';
-import memorialPortrait from '@/assets/memorial-portrait.jpg';
+import memorialPortrait from '@/assets/memorial-portrait.jpeg';
 
 const Index = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -23,7 +23,7 @@ const Index = () => {
 
   // Content data - can be customized
   const memorialData = {
-    name: "Michael James",
+    name: "Ramanathan Sharmilan",
     subtitle: "Forever in our hearts",
     imageSrc: memorialPortrait,
     

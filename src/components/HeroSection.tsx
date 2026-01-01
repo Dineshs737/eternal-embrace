@@ -45,7 +45,7 @@ const HeroSection = ({ name, subtitle, imageSrc }: HeroSectionProps) => {
 
       {/* Birth & Death dates placeholder */}
       <p className="mt-4 font-sans text-base text-muted-foreground tracking-widest animate-fade-in opacity-0 delay-1000">
-        ✦ 1990 — 2024 ✦
+        ✦ 1997 — 2024 ✦
       </p>
 
       {/* Scroll indicator */}
