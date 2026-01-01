@@ -4,9 +4,11 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => {
-  const env = loadEnv(mode, process.cwd(), "");
+  // Load environment variables
+  const env = loadEnv(mode, process.cwd(), "VITE_");
 
   return {
+    // Use env variable if set, otherwise default to GitHub Pages path
     base: env.VITE_BASE_URL || "/eternal-embrace/",
 
     server: {
